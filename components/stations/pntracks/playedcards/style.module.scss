@@ -1,0 +1,41 @@
+.imgborder{
+    border: 1px solid white !important;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.textright{
+    text-align: right;
+}
+
+.pntracktextjp{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    text-shadow: rgba(26, 0, 0, 0.5) 0px 3px 3px;
+    @media (max-width: 991px) {
+        padding-right: 0px;
+        font-size: 1em;
+    }
+}
+
+.zindexzero{
+    z-index: 0;
+}
+
+.textcenter{
+    text-align: left;
+}
+
+
+@media (max-width: 991px) {
+    .trackjp > div:nth-of-type(1){
+        display: none;
+    }
+}

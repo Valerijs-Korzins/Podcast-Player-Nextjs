@@ -1,0 +1,30 @@
+.maindiv{
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    padding: 50px;
+    min-height: 600px;
+    background: linear-gradient(270deg, #E32900 13.54%, rgba(138, 1, 1, 0.973958) 94.51%);
+}
+.dancediv{
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    padding: 50px;
+    background: #670000;
+    min-height: 350px;
+}
+@media (max-width: 1250px) {
+    .autodiv{
+        height: 80px;
+    }
+    .maindiv{
+        width: 100%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .dancediv{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,84 @@
+.maindiv{
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    padding: 75px;
+	min-height: calc(100vh - 80px);
+    background: linear-gradient(270deg, #E32900 13.54%, rgba(138, 1, 1, 0.973958) 94.51%);
+	color: white;
+}
+
+.dancecollection {
+	display: block;
+}
+
+.subscribe {
+	text-align: center;
+	font-size: 18px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.subscribe span{
+    border-radius: 15px;
+	filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
+}
+
+.subscribeimg{
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+.slickcontent1{
+	color: white;
+	font-size: 28px;
+	margin-top: 52px;
+}
+
+.slickcontent2{
+	color: white;
+	font-size: 20px;
+	margin-top: 14px;
+}
+
+.slickcontent3{
+	color: white;
+	font-size: 15px;
+	margin-top: 14px;
+	white-space: pre-wrap;    
+	line-height: 18px;
+}
+
+.slickcontent4{
+	color: white;
+	font-size: 20px;
+}
+
+@media (max-width: 575px) {
+
+	.slickcontent4{
+		margin-top: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+	}
+}
+
+@media (max-width: 1250px) {
+    .autodiv{
+        height: 80px;
+    }
+    .maindiv{
+        width: 100%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+}

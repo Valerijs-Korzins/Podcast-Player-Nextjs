@@ -1,0 +1,72 @@
+.slickslider {
+	width: 100%;
+	margin: auto;
+}
+
+.collection {
+	display: grid;
+	text-align: center;
+	font-size: 18px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.collection span {
+	filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.4));
+}
+
+.collection span img {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+.collection span img:hover {
+	opacity: 0.5;
+	transition: opacity 0.5s;
+	cursor: pointer;
+}
+
+.collectioncontent{
+	width: 150px;
+}
+.collection span {
+	border-radius: 5px;
+}
+
+.nextArrow, .prevArrow{
+	cursor: pointer;
+}
+
+.btnmore{
+	cursor: pointer;
+	color: white;
+}
+
+.editortitle{
+    color: white;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1250px) {
+    .editortitle{
+        color: white;
+        margin-left: 10px;
+    }
+}
+.slickcontent{
+	color: white;
+	text-align: left;
+	font-size: 13px;
+    word-break: break-word;
+	width: 170px;
+	margin-top: 5px;
+}

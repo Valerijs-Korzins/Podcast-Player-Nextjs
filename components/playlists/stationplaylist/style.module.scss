@@ -1,0 +1,66 @@
+.maindiv{
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    padding: 75px;
+    background: linear-gradient(270deg, #E32900 13.54%, rgba(138, 1, 1, 0.973958) 94.51%);
+	color: white;
+}
+
+.dancecollection {
+	display: block;
+}
+
+.collection {
+	display: grid;
+	text-align: center;
+	font-size: 18px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.collection span img:hover {
+    text-decoration: none;
+	opacity: 0.6;
+	transition: opacity 0.5s;
+	cursor: pointer;
+}
+
+.collection span {
+	border: 2px solid #FDFDFD !important;
+	border-radius: 10px;
+}
+
+.collection span span {
+	border: none !important;
+	border-radius: 0px;
+}
+
+.collection span img {
+    padding: 5px !important;
+}
+
+.slickcontent{
+	color: white;
+	text-align: left;
+	font-size: 13px;
+	margin-top: 5px;
+	width: 130px;
+}
+
+@media (max-width: 1250px) {
+    .autodiv{
+        height: 80px;
+    }
+    .maindiv{
+        width: 100%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+}

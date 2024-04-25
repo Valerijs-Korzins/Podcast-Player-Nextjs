@@ -1,0 +1,19 @@
+.fixedbottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 20;
+}
+.autodiv{
+    height: 80px;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    .autodiv{
+        height: 140px;
+        padding: 0px !important;
+        margin: 0px;
+    }
+}

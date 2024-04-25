@@ -1,0 +1,26 @@
+.maindiv{
+    width: auto;
+	min-height: calc(100vh - 80px);
+    margin-left: 80px;
+    position: relative, 
+}
+.stationbg{
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    transform : scale(1.04, 1.04);
+    opacity: 0.9;
+}
+.autodiv{
+    height: 20px;
+}
+@media (max-width: 1250px) {
+    .autodiv{
+        height: 95px;
+    }
+    .maindiv{
+        margin-left: 0px;
+    }
+}

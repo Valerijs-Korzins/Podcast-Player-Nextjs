@@ -1,0 +1,133 @@
+.metainfo{
+    margin-top: 150px;
+    color: white;
+}
+
+.autohide{
+    z-index: 0;
+}
+
+@media (max-width: 991px) {
+    .autohide{
+        display: none;
+    }
+}
+
+.metacard{
+    width: 380px;
+    height: 380px;
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+	filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    @media (max-width: 1250px) {
+        width: 330px;
+        height: 330px;
+        margin-top: 15px;
+    }
+}
+.zindexmax{
+	z-index: 10000000000 !important;
+}
+.cardgradient{
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;    
+    background-image: linear-gradient(to bottom, rgba(125, 185, 232, 0) 0%, rgba(63, 93, 116, 0) 75%, rgba(100, 100, 100, 0.85) 100%);
+    border-radius: 10px;
+}
+.socialbuttons{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.socialimgdiv span{
+    padding: 10px;
+}
+
+.socialimage{
+    border-radius: 10px;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+.metacard span{
+    border-radius: 10px;
+}
+
+.metacard span img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.metatitle{
+    text-shadow: rgba(26, 0, 0, 0.5) 0px 3px 3px;
+    font-size: 22px;
+}
+
+.metatime{
+    text-shadow: rgba(26, 0, 0, 0.5) 0px 3px 3px;
+    font-size: 17px;
+}
+
+.metatext{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: calc(0.25rem - 1px);
+    white-space: pre-wrap;
+    text-align: left;
+}
+.Sharingsvg{
+    cursor: pointer;
+	filter: drop-shadow(2.5px 2.5px 1.5px rgba(26, 0, 0, 0.5));
+}
+
+.metabadge{
+    background-color: #FF0000;
+    width: 80px;
+    padding: 2px;
+    text-align: center;
+}
+
+.playbtn{
+    background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border: 6px solid white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    margin-left: 2px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 50%;
+    text-align: center;
+	cursor: pointer;
+}
+.badgeonair{
+    display: none;
+    background-color: #FF0000;
+    width: 60px;
+    padding: 1px;
+    text-align: center;
+    @media (max-width: 991px) {
+        display: block;
+    }
+}

@@ -1,0 +1,46 @@
+.logo{
+    padding: 10px;
+    width: 200px;
+}
+.logoimg{
+    cursor: pointer;
+    margin-left: 2px !important;
+}
+.mainmenu:hover, .mainmenu.expanded {
+    width:200px;
+    overflow:hidden;
+    opacity:1;
+    .signgroupbuttonmt{
+        opacity:1;
+        transition: visibility 1s, opacity 1s linear;
+    }
+}
+.mainmenu {
+    background:#FFFFFF;
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    left:0;
+    width:80px;
+    overflow:hidden;
+    z-index: 15;
+    transition: width .3s linear;
+    opacity:1;
+    position: fixed;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.signgroupbuttonmt{
+    opacity:0;
+    position: absolute;
+    bottom: 120px;
+}
+
+@media (max-width: 1250px) {
+    .mainmenu {
+        display: none;
+    }
+}

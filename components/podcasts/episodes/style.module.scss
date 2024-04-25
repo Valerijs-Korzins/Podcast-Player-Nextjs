@@ -1,0 +1,99 @@
+.maindiv{
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    padding: 75px;
+	min-height: calc(100vh - 80px);
+    background: linear-gradient(270deg, #E32900 13.54%, rgba(138, 1, 1, 0.973958) 94.51%);
+	color: white;
+}
+
+.dancecollection {
+	display: block;
+}
+.socialbuttons{
+    text-align: center;
+    margin: auto;
+	width: 	80%;
+}
+.socialimgdiv{
+    padding: 10px;
+}
+.zindexmax{
+	z-index: 10000000000 !important;
+}
+.socialimage{
+    border-radius: 10px;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+.subscribe {
+	text-align: center;
+	font-size: 18px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.subscribe span{
+    border-radius: 15px;
+	filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
+}
+
+.subscribe span img {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+.slickcontent1{
+	color: white;
+	font-size: 28px;
+}
+
+.slickcontent2{
+	color: white;
+	font-size: 20px;
+	margin-top: 14px;
+}
+
+.slickcontent3{
+	color: white;
+	font-size: 15px;
+	margin-top: 14px;
+}
+
+.slickcontent4{
+	color: white;
+	font-size: 15px;
+	line-height: 20px;
+	margin-top: 50px;
+}
+
+.Sharingsvg{
+    cursor: pointer;
+	margin-left: 40px;
+}
+
+.btnplaynow{
+	width: 170px;
+	height: 50px;
+}
+@media (max-width: 1250px) {
+    .autodiv{
+        height: 80px;
+    }
+    .maindiv{
+        width: 100%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,44 @@
+.slickcontent1{
+	color: white;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+$font-size: 15px;
+$line-height: 1.2;
+$lines-to-show: 2;
+
+.slickcontent2{
+  color: white;	
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+//   max-width: 400px;
+  height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: $font-size;
+  line-height: $line-height;
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+}
+
+.slickcontent3{
+	color: white;
+	font-size: 13px;
+  	margin-top: 10px;
+}
+
+.episodecard{
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+.slickimage{
+	border-radius: 10px;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}

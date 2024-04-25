@@ -1,0 +1,19 @@
+.fixedheader {
+    display: none;
+    z-index: 99999999;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.signgroupbuttonmt{
+    margin-top: 65px;
+}
+@media (max-width: 1250px) {
+    .fixedheader {
+        z-index: 99999999;
+        width: 100%;
+        position: fixed;
+        display: block;
+    }
+}
